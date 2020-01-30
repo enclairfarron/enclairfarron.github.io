@@ -2,6 +2,7 @@
 title: 'Goodbye, Clean Code'
 date: '2020-01-11'
 spoiler: Let clean code guide you. Then let it go.
+cta: other
 ---
 
 It was a late evening.

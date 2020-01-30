@@ -17,8 +17,8 @@ import {
   replaceAnchorLinksByLanguage,
 } from '../utils/i18n';
 
-const GITHUB_USERNAME = 'gaearon';
-const GITHUB_REPO_NAME = 'overreacted.io';
+const GITHUB_USERNAME = 'enclairfarron';
+const GITHUB_REPO_NAME = 'enclairfarron.github.io';
 const systemFont = `system-ui, -apple-system, BlinkMacSystemFont, "Segoe UI",
     "Roboto", "Oxygen", "Ubuntu", "Cantarell", "Fira Sans",
     "Droid Sans", "Helvetica Neue", sans-serif`;
@@ -136,9 +136,6 @@ class BlogPostTemplate extends React.Component {
       1,
       enSlug.length - 1
     )}/index${lang === 'en' ? '' : '.' + lang}.md`;
-    const discussUrl = `https://mobile.twitter.com/search?q=${encodeURIComponent(
-      `https://overreacted.io${enSlug}`
-    )}`;
 
     return (
       <Layout location={this.props.location} title={siteTitle}>
@@ -177,9 +174,6 @@ class BlogPostTemplate extends React.Component {
             <div dangerouslySetInnerHTML={{ __html: html }} />
             <footer>
               <p>
-                <a href={discussUrl} target="_blank" rel="noopener noreferrer">
-                  Discuss on Twitter
-                </a>
                 {` • `}
                 <a href={editUrl} target="_blank" rel="noopener noreferrer">
                   Edit on GitHub
@@ -211,7 +205,7 @@ class BlogPostTemplate extends React.Component {
               }}
               to={'/'}
             >
-              Overreacted
+              Enclair Farron's Blog
             </Link>
           </h3>
           <Bio />
