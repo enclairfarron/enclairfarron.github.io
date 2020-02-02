@@ -1,5 +1,5 @@
 {
-  "name": "enclair-farron-blog",
+  "name": "blog",
   "private": true,
   "engines": {"node": "12.x"},
   "description": "Enclair Farron's Blog",
