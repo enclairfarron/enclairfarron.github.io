@@ -1,5 +1,5 @@
 ---
-title: 'JavaScript变量对象'
+title: '深入JavaScript之变量对象'
 date: '2020-02-02'
 spoiler: Copy from 	mqyqingfeng's blog.
 cta: JavaScript
